@@ -113,6 +113,7 @@ const DropdownButton = () => {
 
   const handleImageUpload = async (file) => {
     try {
+      const add = 0;
       const dummyEndpoint = "https://dummy.restapiexample.com/api/v1/create";
       const formData = new FormData();
       formData.append("image", file);
